@@ -1,6 +1,6 @@
 Clinical-decision-support-system
 ===========================
-Clinical-decision-support-system with tensorflow
+Clinical-decision-support-system
 
 ****
 	
@@ -25,16 +25,16 @@ dataanalysis
 
 ### distribution:
 1. Attribute:
-![](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/datatype.png)
+![1](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/datatype.png)
 2. age and gender distribution：
-![](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/age.png)
+![2](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/age.png)
 3. label :
-![](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/labelwithage.png)
-![](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/label.png)
+![3](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/labelwithage.png)
+![4](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/label.png)
 4. body part:
-![](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/bodypartnegative.png)
-![](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/bodypart.png)
-![](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/bodypartexcel.png)
+![5](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/bodypartnegative.png)
+![6](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/bodypart.png)
+![7](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/bodypartexcel.png)
 
 
 dataprocessing
