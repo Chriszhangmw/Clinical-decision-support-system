@@ -35,7 +35,10 @@ dataanalysis
 ![5](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/bodypartnegative.png)
 ![6](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/bodypart.png)
 ![7](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/bodypartexcel.png)
-
+5.symptom:
+![8](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/symptomnagetive.png)
+![9](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/symbol.png)
+![10](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/symptonexcel.png)
 
 dataprocessing
 ------
