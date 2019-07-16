@@ -58,11 +58,9 @@ and now ,after data enhancement, we have 922*6 samples in total, then, we can do
 
 tensorflow_and_keras
 ------
-1.Embedding methods：
-	1.Rand: Randomly initialize the word vector of each word  and adjust through the later  training
-	2.For example: character embedding （TensorFlow）,embedding layer （Keras）                        
-	3.Static：Use pre-trained word vectors, such as word vectors trained by word2vec, will not adjust the word vector during training
-	4.For example: Word embedding（gensim）
+### Embedding methods:
+	1.Rand: Randomly initialize the word vector of each word  and adjust through the later  training.For example: character embedding （TensorFlow）,embedding layer （Keras）                        
+	3.Static：Use pre-trained word vectors, such as word vectors trained by word2vec, will not adjust the word vector during training. For example: Word embedding（gensim）
 	5.Genism：Word---index---vector（trained）
 	6.Sklearn：Word---index---tf-idf（fixed）
 	7.Keras :  Word ---- index----vector（random）
