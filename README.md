@@ -46,6 +46,7 @@ dataprocessing
 ------
 Obviously, the distribution of positive and negative samples is extremely unbalance，so，the first step we should solve the unbalanced data, there are two options：undersample and oversample， oversample  based on the final inputs, but our sample will under NLP(make sample into vectors) before input in the neural networks, so , it is  difficult for us to do oversample,  and I choose undersample， but if we do undersample based on 922 samples, the negative samples only 70 in total, how about we do data enhancement before undersample. 
 Let’s look the sample in detail:
+### data enhancement:
 	1.Chief complaint: X；Current medical history：Y；Past history：Z
 	2.Whether using Word embedding or character embedding，Before we do vectorization, we must convert each word into its own index number, so changing the order of the three parts of the statement will make the result of the vectorization completely different. I call these step as data enhancement
 	3.+1,Chief complaint: X；Past history：Z；Current medical history：Y
