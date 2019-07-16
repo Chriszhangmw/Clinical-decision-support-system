@@ -15,6 +15,7 @@ Clinical-decision-support-system
 * [dataprocessing](#dataprocessing)
 * [tensorflow_and_keras](#tensorflow_and_keras)
 * [BERT](#BERT)
+* [web_demo](#web_demo)
 
 dataanalysis
 -----------
@@ -81,3 +82,13 @@ results:
 BERT
 ------
 ### used in IBM model 1
+
+web_demo
+------
+### input the basic information(Chief Complaint, History of Current Illness and History of Past illness)
+![18](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/web1.png)
+### click the prediction button
+![19](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/web2.png)
+### get the prediction results for doctor
+![20](https://raw.github.com/Chriszhangmw/Clinical-decision-support-system/master/picture/web3.png)
+
