@@ -19,6 +19,9 @@ Clinical-decision-support-system with tensorflow
 dataanalysis
 -----------
 ### introducation:
+1. The goal of the demo is to build a clinical diagnosis prediction model which can be used by Hospital to identify patients with diseases during early diagnosis stage.The clinical diagnosis prediction model will be built on historical patients’ records, and later can be used to predict illness base on new patients’ conditions.
+2. the patients records contains Chief Complaint, History of Current Illness and History of Past illness, so the first step is to transfor the words to vector and input with model
+
 
 
 ### distribution:
