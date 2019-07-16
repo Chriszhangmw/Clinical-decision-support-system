@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Avaintec AAD</title>
+
+    <link rel="stylesheet" href="static/css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel='stylesheet prefetch' href='/static/js/jquery.mCustomScrollbar.min.css'>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/front.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/form-elements.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/pf.css">
+
+</head>
+
+<body>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="top-content">
+        <div style="height: 100%">
+            <div class="container" >
+               <div id="container_box">
+                   <div class="container_right">
+                       <div class="row">
+                           <div class=" text">
+
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class=" form-box">
+
+                               <div id="topform">
+                                   <div style="display: block;">
+                                       <div class="form-top">
+                                           <div class="form-top-left">
+                                               <h1 style="...">急腹症智能辅助分诊 <img style="width: 70px;margin-left: 100px" src="/static/img/doctor.png" alt=""></h1>
+                                           </div>
+                                       </div>
+
+                                       <div class="form-bottom">
+                                           <div class="form-group" style="width: 48%; float: left;">
+
+                                               <label class="sr-only" for="form-first-name">病人姓名</label>
+                                               <input type="text" name="username" placeholder="病人姓名"
+                                                      class="form-first-name form-control" id="form-first-name">
+                                           </div>
+
+                                           <div class="form-group" style="float: right;width: 50%;">
+
+                                               <label class="sr-only" for="form-last-number">住院号</label>
+                                               <input type="text" name="hospitalno" placeholder="住院号"
+                                                      class="form-last-name form-control" id="form-last-number">
+                                           </div>
+                                           <div class="form-group">
+                                               <label class="sr-only" for="form-last-zhusu">主诉</label>
+                                               <textarea  name="describemain" placeholder="主诉"
+                                                          class="form-last-name form-control" id="form-last-zhusu"></textarea>
+                                           </div>
+                                           <div class="form-group">
+                                               <label class="sr-only" for="form-about-xianbingshi">现病史</label>
+                                               <textarea  name="describenow" placeholder="现病史"
+                                                          class="form-about-yourself form-control"
+                                                          id="form-about-xianbingshi"></textarea>
+                                           </div>
+                                           <div class="form-group">
+                                               <label class="sr-only" for="form-about-jiwangshi">既往史</label>
+                                               <textarea  name="describepast" placeholder="既往史"
+                                                          class="form-about-yourself form-control"
+                                                          id="form-about-jiwangshi"></textarea>
+                                           </div>
+
+
+                                           <button id="firstBtn" class="btn btn-next">预测</button>
+                                       </div>
+
+
+                                   </div>
+                               </div>
+                               <div >
+                                   <h3>分词结果</h3>
+                                   <div id="cut" style="color:#0f0f0f"></div>
+                                   <h3>预测结果</h3>
+                                   <div id="predict" style="color:#0f0f0f"></div>
+                                   <div style="display: block;">
+                                       <!--div class="form-top"-->
+                                       <h3>医生诊断记录</h3>
+                                       <!--/div-->
+                                       <div class="form-group">
+                                           <label class="sr-only" for="form-about-yourself">医生诊断</label>
+                                           <textarea name="descion_r" placeholder="医生诊断"
+                                                     class="form-about-yourself form-control"
+                                                     id="form-about-yourself"></textarea>
+                                       </div>
+                                       <button id="submit_all" class="btn btn-next">提交</button>
+                                   </div>
+                               </div>
+
+                           </div>
+                       </div>
+
+                   </div>
+
+               </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src='/static/js/jquery.min.js'></script>
+<script src='/static/js/jquery.mCustomScrollbar.concat.min.js'></script>
+<script src="/static/js/pf.js"></script>
+</body>
+</html>

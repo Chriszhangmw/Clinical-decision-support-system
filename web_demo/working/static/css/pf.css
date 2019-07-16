@@ -1,0 +1,106 @@
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(33, 33, 33, .8);
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#myCarousel {
+    height: 100%;
+    background-image: url("../img/bk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+
+.container {
+    width: 1000px;
+    padding-left: 300px;
+    height: 100%;
+
+    border-radius: 5px;
+}
+
+#container_box{
+    position: relative;
+    height: 100%;
+}
+
+.pop {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #274b5582;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pop img{
+    width: 100px;
+    height: 100px;
+    animation:mymove 2s linear infinite;
+}
+
+@keyframes mymove
+{
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+.container_right {
+    border-radius: 10px;
+    padding: 20px 50px;
+    width: 100%;
+    background-color: rgba(44, 44, 44, .7);
+    box-shadow: 0 0 30px #2b669a;
+    height: 98%;
+    overflow: auto;
+    color: #cccccc;
+}
+
+textarea, textarea.form-control {
+    height: 100px !important;
+}
+
+.top-content {
+    height: 100%;
+}
+
+#predict {
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#cut {
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
