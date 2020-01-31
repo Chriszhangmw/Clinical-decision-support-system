@@ -24,22 +24,12 @@ def reply():
     # print('first_result',first_result)
     return json.dumps({'cut': first_result['cut'],'predict':first_result['predict']})
 
-
 @app.route('/secondAll', methods=['post'])
 def reply_2():
-    # print('ssssssssssssss')
     req_msg = request.form.to_dict()
     print(req_msg['data'])
     record_sample(req_msg['data'])
     return json.dumps({})
-
-
-
-# import tensorflow as tf
-# import execute
-#
-# sess = tf.Session()
-# sess, model, enc_vocab, rev_dec_vocab = execute.init_session(sess, conf='seq2seq_serve.ini')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
